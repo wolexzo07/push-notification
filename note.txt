@@ -1,0 +1,25 @@
+timpush 
+
+sender id : 675461600657 
+
+https://github.com/phonegap/phonegap-plugin-push
+https://github.com/havesource/cordova-plugin-push/blob/master/docs/PAYLOAD.md  (API)
+https://github.com/havesource/cordova-plugin-push (latest)
+
+https://github.com/chemerisuk/cordova-support-google-services
+
+public key : BFukQYKl9Td0GMDN8TEzreVl_rtyFIjhOeZKB4RlStzYcvJzH6AdBfEt2-lJvjVV_Wv9gFpPzmwfMzWoTh3F7sI 
+
+private key : rjpLl1icR0JFjTGC9nqC01U_k3ty2lLst0kBlKSax1M
+
+Firebase service account
+firebase-adminsdk-590dk@timpush-fef67.iam.gserviceaccount.com
+
+Project ID : timpush-fef67
+Project number : 675461600657
+
+PushNotification.hasPermission(data => {
+  if (data.isEnabled) {
+    console.log('isEnabled');
+  }
+});

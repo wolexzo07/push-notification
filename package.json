@@ -1,0 +1,32 @@
+{
+  "name": "com.timothy.pushapp",
+  "displayName": "notification",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "cordova": {
+    "plugins": {
+      "@havesource/cordova-plugin-push": {
+        "ANDROIDX_CORE_VERSION": "1.6.+",
+        "FCM_VERSION": "23.+"
+      }
+    },
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
+  "devDependencies": {
+    "@havesource/cordova-plugin-push": "^4.0.0",
+    "cordova-android": "^13.0.0",
+    "cordova-browser": "^7.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.timothy.pushapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TimPush</name>
+    <description>Push notification testing</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Biobaku Oluwole
+    </author>
+	<icon src="res/logo.png"/>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+	
+	<platform name="android">
+	  <resource-file src="google-services.json" target="app/google-services.json" />
+	</platform>
+	
+	<platform name="android">
+	  <resource-file src="res/note.png" target="res/drawable/note.png" />
+	</platform>
+	
+	<platform name="ios">
+	  <resource-file src="res/sound.caf" />
+	</platform>
+	
+	<preference name="GradlePluginGoogleServicesEnabled" value="true" />
+    <preference name="GradlePluginGoogleServicesVersion" value="4.4.2" />
+	
+	<preference name="android-minSdkVersion" value="22" />
+	<preference name="android-targetSdkVersion" value="34" />
+	<preference name="android-compileSdkVersion" value="34" />
+	
+</widget>
